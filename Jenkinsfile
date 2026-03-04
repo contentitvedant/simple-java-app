@@ -8,7 +8,7 @@ pipeline{
 	stages{
 	stage('clone'){
 	steps {
-	git branch: 'main', url: 'https://github.com/contentitvedant/simple-java-app.git'
+	git branch: 'test', url: 'https://github.com/contentitvedant/simple-java-app.git'
 	}
 	}
 
